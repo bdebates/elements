@@ -1,0 +1,17 @@
+p {
+  /* border: 1px solid black; */
+  box-shadow: inset 20% 20% 20% rgb(105, 58, 58);
+  flex-basis: calc(100% / 18);
+  /* box-shadow: 2px 2px 2px grey inset; */
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 0;
+  height: 6vw;
+  /* padding-top: 10%; */
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}

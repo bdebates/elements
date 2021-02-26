@@ -1,17 +1,66 @@
+body {
+  background-color: #181a1b;
+}
 p {
   /* border: 1px solid black; */
   box-shadow: inset 20% 20% 20% rgb(105, 58, 58);
-  flex-basis: calc(100% / 18);
+  flex-basis: calc(95vw / 18);
   /* box-shadow: 2px 2px 2px grey inset; */
-  border: 2px solid black;
+  border: 2px solid #8c8273;
   box-sizing: border-box;
   margin: 0;
-  height: 6vw;
+  height: 5vw;
   /* padding-top: 10%; */
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 1.5vw;
 }
-
-div {
+@media (max-width: 600px) {
+  p {
+    padding-top: 0.5vw;
+    font-size: 60%;
+  }
+  .asterick {
+    font-size: 40%;
+    padding-top: 0.5vw;
+  }
+}
+.flex {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
+}
+
+.alkali {
+  background-color: rgb(204, 0, 0);
+}
+.alkaline {
+  background-color: rgb(204, 132, 0);
+}
+.transition {
+  background-color: rgb(5, 77, 121);
+}
+.lanthanoid {
+  background-color: rgb(0, 94, 186);
+}
+.actinoid {
+  background-color: rgb(40, 111, 17);
+}
+.metalloid {
+  background-color: rgb(204, 172, 0);
+}
+.metal {
+  background-color: rgb(122, 37, 143);
+}
+.post-transition {
+  background-color: rgb(49, 53, 55);
+}
+.nonmetal {
+  background-color: rgb(124, 176, 0);
+}
+.halogen {
+  background-color: rgb(27, 73, 88);
+}
+.noble {
+  background-color: rgb(89, 0, 16);
 }

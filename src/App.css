@@ -1,0 +1,23 @@
+.text-center {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: auto;
+  width: 100%;
+}
+.link {
+  flex-basis: calc(100% / 4);
+  text-decoration: none;
+  background-color: lightskyblue;
+  color: beige;
+  width: 30px;
+  line-height: 30px;
+}
+.link:not(.active-link):hover {
+  background-color: lightslategrey;
+}
+.active-link {
+  background-color: mediumblue;
+}

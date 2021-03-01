@@ -1,8 +1,9 @@
 import React from "react";
-const PeriodicDisplay = () => {
+const PeriodicDisplay = (props) => {
   return (
     <>
-      <h3>test display</h3>
+      <h3>Click an element to display its properties!</h3>{" "}
+      <h2>{props.element}</h2>
     </>
   );
 };

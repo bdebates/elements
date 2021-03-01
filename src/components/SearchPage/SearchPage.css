@@ -1,0 +1,32 @@
+label {
+  flex-basis: 50%;
+  text-align: right;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100vw;
+}
+select {
+  /* flex-basis: calc(8%); */
+  margin-left: auto;
+  margin-right: 1%;
+  font-size: 150%;
+  background-color: grey;
+  border: 0px solid black;
+  /* border-radius: 5% 5% 5% 5%; */
+}
+@media (max-width: 350px) {
+  select {
+    flex-basis: 100%;
+  }
+  input {
+    margin-top: 2.5%;
+  }
+}
+input {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: lightgray;
+  font-size: 120%;
+}

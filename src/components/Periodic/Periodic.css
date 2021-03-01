@@ -1,9 +1,12 @@
 body {
   background-color: #181a1b;
+  color: whitesmoke;
+  text-align: center;
 }
-p {
+button {
+  background-color: transparent;
   /* border: 1px solid black; */
-  box-shadow: inset 20% 20% 20% rgb(105, 58, 58);
+  /* box-shadow: inset 20% 20% 20% rgb(105, 58, 58); */
   flex-basis: calc(95vw / 18);
   /* box-shadow: 2px 2px 2px grey inset; */
   border: 2px solid #8c8273;
@@ -11,24 +14,32 @@ p {
   margin: 0;
   height: 5vw;
   /* padding-top: 10%; */
-  color: whitesmoke;
-  text-align: center;
+  /* text-align: center; */
   padding-top: 1.5vw;
+  padding-left: 0;
+  padding-right: 0;
+  color: whitesmoke;
 }
 @media (max-width: 600px) {
-  p {
+  button {
     padding-top: 0.5vw;
     font-size: 60%;
+    border: 1px solid #8c8273;
   }
   .asterick {
     font-size: 40%;
-    padding-top: 0.5vw;
+    /* padding-top: 0.5vw; */
   }
+}
+.asterick {
+  font-size: 50%;
+  display: inline;
+  padding-top: 0.5vw;
 }
 .flex {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 100%;
+  flex-basis: 100vw;
 }
 
 .alkali {

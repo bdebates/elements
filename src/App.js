@@ -14,22 +14,6 @@ function App() {
     <>
       <Router>
         <nav className="menu">
-          {/* <NavLink
-            className="text-center link"
-            activeClassName="active-link"
-            // activeClassName="active"
-            to="/login"
-          >
-            Login
-          </NavLink>
-          <NavLink
-            className="text-center link"
-            activeClassName="active-link"
-            // activeClassName="active"
-            to="/search"
-          >
-            Search
-          </NavLink> */}
           <NavLink
             className="text-center link"
             activeClassName="active-link"
@@ -48,9 +32,7 @@ function App() {
         </nav>
         <main>
           <Switch>
-            {/* <Route path="/login" component={LoginPage} /> */}
             <Route path="/search" component={SearchPage} />
-            {/* <Route path="/favorites" component={FavoritesPage} /> */}
             <Route path="/periodic-table" component={PeriodicTable} />
             <Route path="*">
               <Redirect to="/periodic-table"></Redirect>
